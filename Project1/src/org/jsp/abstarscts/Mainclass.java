@@ -1,0 +1,17 @@
+package org.jsp.abstarscts;
+
+public class Mainclass
+{
+	public static void main(String[] args)
+	{
+	    C c=new C();
+		System.out.println(c.x);
+		System.out.println(c.y);
+		System.out.println(c.z);
+		c.print();
+		c.disp();
+		
+		
+	}
+
+}
